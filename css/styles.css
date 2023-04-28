@@ -25,7 +25,7 @@ ul {
 
 img {
   display: block;
-  max-width: 428px;
+  width: 100%;
   height: auto;
   justify-content: center;
   align-items: center;
@@ -52,7 +52,7 @@ img {
 }
 
 .container {
-  max-width: 428px;
+  width: 100%;
 
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@ img {
   /* flex-direction: column; */
 }
 section {
-  width: 428px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -71,7 +71,7 @@ section {
 
 .header {
   margin: 0 auto;
-  max-width: 428px;
+  width: 100%;
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
@@ -172,14 +172,14 @@ section {
   background-size: cover;
   padding-top: 188px;
   padding-bottom: 188px;
-  width: 428px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 .container-hero {
 }
 .hero-title {
-  width: 428px;
+  width: 100%;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -334,7 +334,7 @@ section {
 }
 .team {
   background-color: #f4f4fd;
-  max-width: 100%;
+  width: 100%;
   align-items: center;
   justify-content: center;
   padding: 96px 82px;
@@ -477,7 +477,7 @@ section {
 
 .footer {
   margin: 0 auto;
-  width: 428px;
+  width: 100%;
   background-color: #2e2f42;
   padding: 100px 0;
 }
