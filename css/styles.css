@@ -392,8 +392,9 @@ section {
 
 .team-soc-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-between;
+  padding: 0 16px;
+  /* gap: 24px; */
 }
 .team-soc-item {
   width: 40px;
@@ -477,10 +478,11 @@ section {
 /* -----FOOTER----- */
 
 .footer {
+
   margin: 0 auto;
   width: 100%;
   background-color: #2e2f42;
-  padding: 96px 0;
+  padding: 96px 15px;
 }
 .container-footer-top {
   display: flex;
@@ -527,7 +529,7 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  width: 264px;
+  /* width: 264px; */
 }
 
 .footer-soc-text {
@@ -585,7 +587,7 @@ section {
 }
 
 .subscribe-container {
-  width: 100%;
+  width: 392px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -595,6 +597,8 @@ section {
   /* min-width: 453px; */
 }
 .subscribe-text {
+  display: flex;
+  justify-content: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
