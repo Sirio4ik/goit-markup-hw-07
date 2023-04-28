@@ -198,7 +198,7 @@ section {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
@@ -328,9 +328,10 @@ section {
 
 /* -----TEAM----- */
 .team-images {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center; */
+  margin: 0 auto;
 }
 .team {
   background-color: #f4f4fd;
@@ -479,17 +480,19 @@ section {
   margin: 0 auto;
   width: 100%;
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
 }
 .container-footer-top {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .container-footer {
   background-color: #2e2f42;
   display: block;
   padding-right: 0;
+  margin-bottom: 72px;
 }
 .footer-title {
 }
@@ -528,6 +531,9 @@ section {
 }
 
 .footer-soc-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -540,6 +546,7 @@ section {
   align-items: center;
   justify-content: center;
   gap: 16px;
+  margin-bottom: 72px;
 }
 
 .footer-soc-item {
@@ -551,7 +558,7 @@ section {
   height: 100%;
   border-radius: 50%;
   background-color: #4d5ae5;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   justify-content: center;
   transition-property: background;
@@ -578,10 +585,12 @@ section {
 }
 
 .subscribe-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 0 15px;
   /* margin-left: 80px; */
   /* min-width: 453px; */
 }
@@ -594,6 +603,7 @@ section {
   margin-bottom: 16px;
 }
 .subscrib-form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -609,7 +619,7 @@ section {
   align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
-  min-width: 264px;
+  width: 100%;
   background: #2e2f42;
   border: 1px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
