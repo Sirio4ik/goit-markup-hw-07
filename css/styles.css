@@ -25,6 +25,10 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 .list {
@@ -48,9 +52,18 @@ img {
 }
 
 .container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width:100%;
+  
+  justify-content: center;
+  align-items: center;
+
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  margin: 0 auto;
+  /* flex-direction: column; */
+}
+section {
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -235,7 +248,10 @@ img {
   border-radius: 4px;
 }
 .about-list {
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 .about-list-top {
@@ -281,6 +297,8 @@ img {
   color: var(--main-title-color);
 }
 .benefits-list {
+  justify-content: center;
+  align-items: center;
   display: flex;
   gap: 24px;
   margin-top: 72px;
@@ -292,11 +310,19 @@ img {
 }
 
 /* -----TEAM----- */
-
+.team-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .team {
   background-color: #f4f4fd;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+}
 
-  padding: 120px 0;
+.container-team {
 }
 .team-top-title {
   font-weight: 700;
@@ -309,10 +335,17 @@ img {
   margin-bottom: 72px;
 }
 .team-list {
-  display: flex;
-  gap: 24px;
+  /* display: flex; */
+  flex-basis: 100%;
+  /* gap: 24px; */
+  padding: 96px 82px;
+}
+
+.team-list li {
+  /* flex-basis: ((100%-72px)/4); */
 }
 .team-item {
+  margin-bottom: 72px;
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -371,27 +404,9 @@ img {
 
 /* -----COMPANI----- */
 
-.compani {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 .container {
 }
 
-.compani-icon {
-  fill: #8e8f99;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.compani-icon:hover,
-.compani-icon:focus {
-  fill: #404bbf;
-}
-.comp-icon-one {
-  fill: #404bbf;
-}
 .compani-top-text {
   font-family: "Roboto";
   font-style: normal;
@@ -406,6 +421,7 @@ img {
 }
 .compani-list {
   display: flex;
+  gap: 72px;
   align-items: center;
   justify-content: center;
   gap: 24px;
@@ -423,14 +439,16 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-property: border;
+  transition-property: border fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #8e8f99;
 }
 
 .compani-link:hover,
 .compani-link:focus {
   border: 1px solid #404bbf;
+  fill: #404bbf;
 }
 
 /* -----FOOTER----- */
