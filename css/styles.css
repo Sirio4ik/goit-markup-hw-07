@@ -142,7 +142,7 @@ section {
   width: 100vw;
   height: 100vh;
   background-color: #ffffff;
-  padding: 24px 16px 48px 40px;
+  padding: 24px 24px 40px 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -152,7 +152,7 @@ section {
 .menu-close-btn {
   display: block;
   margin-left: auto;
-  margin-bottom: 30px;
+  margin-bottom: 32px;
 }
 .mob-menu-list {
   margin-bottom: 64px;
@@ -167,6 +167,12 @@ section {
   line-height: calc(25 / 18);
   letter-spacing: 0.1em;
   color: #303030;
+}
+.mob-menu-adress {
+  display: flex;
+}
+.mod-menu-navigation {
+  display: flex;
 }
 
 .header-link {
@@ -952,6 +958,10 @@ section {
   left: 16px;
   top: 8px;
 }
+.modal-btm-send {
+  display: flex;
+  justify-content: center;
+}
 
 .modal-btn {
   flex-direction: row;
@@ -976,8 +986,6 @@ section {
   letter-spacing: 0.04em;
   color: #ffffff;
   border: none;
-
-  margin-left: 95px;
 }
 
 .modal-btn:hover {
