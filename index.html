@@ -21,49 +21,38 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
-    <header class="header">
+    <header class="header-navigation">
       <div class="container header-container">
-        <nav class="header-navigation">
-          <a class="header-link-logo link" href="./index.html">
-            Web<span class="header-link-logo-second">Studio</span>
-          </a>
-          <!------ MOBMENU ------->
+        <a class="header-link-logo link" href="./index.html">
+          Web<span class="header-link-logo-second">Studio</span>
+        </a>
+        <!------ MOBMENU ------->
 
-         
-           <button class="header-btn btn" data-modal-open type="submit">
-          Online-booking
-           </button>
-           <button class="menu-open-btn" data-menu-open type="button">O</button>
-      
-          <div class="mob-menu is-hidden" data-menu>
-          <div>
-          <button class="menu-close-btn" data-menu-close type="button">
-            X
-          </button>
-          
-            <ul class="mob-menu-list list">
-              <li class="mob-menu-item list">
-                <a class="mob-menu-link link" href="./index.html">About</a>
-              </li>
-              <li class="mob-menu-item list">
-                <a class="mob-menu-link link" href>Services and prices</a>
-              </li>
-              <li class="mob-menu-item list">
-                <a class="mob-menu-link link" href="#barbers">Barbers</a>
-              </li>
-              <li class="mob-menu-item list">
-                <a class="mob-menu-link link" href>Contacts</a>
-              </li>
-            </ul>
-          </nav>
-           </div>
-           <div>
+        <button class="menu-open-btn" data-menu-open type="button">O</button>
+      </div>
+      <div class="mob-menu is-hidden" data-menu>
+        <button class="menu-close-btn" data-menu-close type="button">X</button>
+        <nav>
+          <ul class="mob-menu-list list">
+            <li class="mob-menu-item list">
+              <a class="mob-menu-link link" href="./index.html">About</a>
+            </li>
+            <li class="mob-menu-item list">
+              <a class="mob-menu-link link" href>Services and prices</a>
+            </li>
+            <li class="mob-menu-item list">
+              <a class="mob-menu-link link" href="#barbers">Barbers</a>
+            </li>
+            <li class="mob-menu-item list">
+              <a class="mob-menu-link link" href>Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <div>
           <a class="mob-menu-phone link" href="tel:+380441111111"
             >+38 044 111 11 11</a
           >
-          <button class="mob-menu-btn btn" data-modal-open type="submit">
-            Online-booking
-          </button>
+
           <ul class="mob-soc-list list">
             <li class="mob-soc-item">
               <a
@@ -99,7 +88,7 @@
               <a class="header-link link" href="">Contacts</a>
             </li>
           </ul>
-        </nav>
+        
         <address class="header-address">
           <ul class="header-address-list list">
             <li class="header-item">
@@ -116,7 +105,6 @@
             </li>
           </ul>
         </address> -->
-
     <main>
       <section class="hero">
         <div class="container container-hero">
@@ -601,6 +589,8 @@
         </form>
       </div>
     </div>
+
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js" type="module"></script>
   </body>
 </html>
